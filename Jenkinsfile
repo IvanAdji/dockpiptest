@@ -1,4 +1,4 @@
 node {
 	checkout scm
-	sh "docker build -t 
+	sh "docker build -t pythontest . "
 }
